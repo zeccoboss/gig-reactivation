@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>MAKE PAYMENT</h1>
+    <h2>Choose your paymet method below</h2>
+
+    <a href=""> 
+    <button class="PayPal"></button>
+    </a>
+    <br><br>
+    <a href="http://Startselect.pt">
+    <button class="BTC"> </button>
+    </a>
+    <br><br>
+    <a href="http://Startselect.pt">
+    <button class="RazerGold tooltip"  data-tooltip="Razer Gold"></button>
+    <br>
+    <a>Razer Gold</a>
+    </a>
+    </button>
+    <br><br>
+    <a href="http://Startselect.pt">
+    <button class="Steam"></button>
+    <br>
+    <a>Steam</a>
+    </a>
+    <br><br>
+    
+
+    <style>
+        body {
+            display: block;
+            cursor: default;
+            margin: 90px;
+            background-color: gainsboro;            
+        }
+        h1 {
+            font-size: 40px;
+            font-family: sans-serif;
+            text-align: center;
+            padding: 10px;
+            margin: 8px;
+            border: 1px solid;
+            border-radius: 3px;
+            background-color: lavender;
+        }
+        h2 {
+            font-size: 20px;
+            font-family: sans-serif;
+            text-align: center;
+            padding: 10px;
+            margin: 8px;
+            border: none;
+            border-radius: 38px;
+            background-color: #f0f0f0;
+           /*button*/
+        }
+        button {
+            cursor: pointer;
+            background-image: url(paypa.png);
+            padding: 5px;
+            margin-bottom: 20px;
+            border: 1px solid;
+            border-bottom: 10px;
+            box-shadow: 2px 2px 4px rgba(red, green, blue, alpha);        
+        }
+        /* background image for button*/
+        .PayPal {
+            background-image: url(paypa.png);
+            background-position: center;
+            background-size: cover;
+            border: none;
+            height: 50px;
+            width: 150px;
+        }
+        .BTC {
+            background-image: url(btc.jpeg);
+            background-position: center;
+            background-size: cover;
+            border: none;
+            height: 50px;
+            width: 150px;
+        }
+        .RazerGold {
+            background-image: url(razer\ gold.jpeg);
+            background-position: center;
+            background-size: cover;
+            border: none;
+            height: 50px;
+            width: 150px;
+        }
+        .Steam {
+            background-image: url(steame.webp);
+            background-position: center;
+            background-size: cover;
+            border: none;
+            height: 50px;
+            width: 100px;
+        }
+        .tooltip::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: none;
+}
+
+.tooltip:hover::after {
+  display: block;
+}
+
+        /* peusoder effect for each button (hover)*/
+        .PayPal:hover {
+            background-color: blue;
+        }
+        .PayPal:active {
+            background-color:purple;
+        }
+
+        .BTC:hover {
+            background-color: orangered;
+        }
+        .BTC:active {
+            background-color: orangered;
+        }
+
+        .RazerGold:hover {
+            background-color: green;
+        }
+        .RazerGold:active {
+            background-color: green;
+        }
+
+        .Steam:hover {
+            background-color: #a6adab9c;
+        }
+        .Steam:active{
+            background-color: #f0f0f0;
+        }
+
+        .PayPal{
+                text-align: centers;
+                background-color: #f0f0f0;
+                width: 200px;
+                height: 50px;
+                border-image: 1px;
+                border-radius: 3px;
+            }
+        .BTC {
+                text-align: centers;
+                width: 200px;
+                height: 50px;
+                border-image: 1px;
+                border-radius: 3px;
+            }
+        .RazerGold {
+                text-align: centers;
+                width: 200px;
+                height: 50px;
+                border-image: 1px;
+                border-radius: 3px;
+            }
+        .PayPal{
+                text-align: centers;
+                width: 200px;
+                height: 50px;
+                border-image: 1px;
+                border-radius: 3px;
+            }
+        .Steam {
+                text-align: centers;
+                width: 200px;
+                height: 50px;
+                border-image: 1px;
+                border-radius: 3px;
+            }
+    </style>
+    <script>
+     document.getElementById("Steam").addEventListener("click", function() {
+
+    // code to execute when the button is clicked
+
+    alert(""); });
+    </script>
+</body>
+</html>
